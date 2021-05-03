@@ -1,0 +1,19 @@
+@media only screen and (max-width:768px){
+    .video-area video{
+        width: 500px;
+        height: 500px;
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width:576px){
+    .video-area video{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media only screen and (max-width:420px){
+    .video-area video{
+        width: 300px;
+        height: 300px;
+    }   
+}

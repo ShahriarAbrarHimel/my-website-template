@@ -1,0 +1,126 @@
+*{
+    margin:0 auto;
+    padding: 0 auto;
+}
+.wrapper{
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    border: 2px solid rgb(231, 216, 216);
+    border-radius: 15px;
+    margin-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.logo{
+    height: 70px;
+    background-color: #0085cf;
+}
+.logo img{
+    width:150px;
+    height: 50px;
+}
+.feture-img{
+    height: auto;
+    margin: 25px 30px;
+    position: relative;
+}
+.feture-img img{
+    width: 540px;
+    height: 380px;
+    
+}
+.under-bg{
+    width: 500px;
+    height: 155px;
+    background-color: white;
+    top: 100px;
+    left: 20px;
+    position: absolute;
+    opacity: 0.8;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.under-bg h1{
+    text-align: center;
+    margin-top: 30px;
+    padding:5px 15px;
+    font-size: 30px;
+    color: #0085cf;
+}
+.under-bg p{
+     text-align: center;
+     padding:5px 20px;
+}
+.upcoming{
+    height: auto;
+    width: 600px;
+}
+.upcoming h1{
+    font-size: 22px;
+    color: #0085cf;
+    margin: 30px 5px;
+    text-align: center;
+    padding: 10px;
+}
+.upcoming .left,.upcoming .middle,.upcoming .right{
+    width: 170px;
+    height: auto;
+    display: inline-block;
+    margin: 0px 10px;
+}
+.upcoming .left{
+    margin-left: 20px;
+}
+.upcoming .right{
+    margin-right: 20px;
+}
+.upcoming .left img,.upcoming .middle img,
+.upcoming .right img{
+    width: 180px;
+    height: 200px;
+    border-radius: 5px;
+}
+.upcoming .left p,.upcoming .middle p,.upcoming .right p{
+    font-weight: bold;
+    font-size: 12pt;
+    padding:3px 10px;
+    color: #4A4A4A;
+}
+.upcoming .left h3 ,.upcoming .middle h3,.upcoming .right h3{
+    font-weight: bold;
+    font-size:15pt ;
+    padding:3px 10px;
+    color: #4A4A4A;
+}
+.upcoming .left p,.upcoming .middle p,.upcoming .right p{
+    margin-top: 25px;
+}
+.upcoming .left a,.upcoming .middle a,
+.upcoming .right a{
+    text-decoration: none;
+    background-color: #0085cf;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+.quick{
+    height: 160px;
+    width: 550px;
+    margin:60px 20px ;
+    background-color: #0085cf;
+    border-radius: 10px;
+
+}
+.quick h1{
+    padding-top: 30px;
+    padding-left: 25px;
+    font-size: 15pt;
+    color: white;
+}
+.quick p{
+    text-align: justify;
+    margin: 20px 0px;
+    padding: 5px 20px;
+    color: white;
+}

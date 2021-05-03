@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');        /*Import google font and link */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    padding: 15px;
+    margin-bottom: 90px;
+}
+.first-section{
+    background-color:rgb(240, 255, 240) ;
+}
+.nav a{
+    color:black ;
+}
+.nav li:last-child{
+    background-color:#21b573;
+    border-radius: 20px;
+    color: white ;
+}
+.banner img{
+    width: 100%;
+}
+.banner h5{
+    color:#f79d77
+}
+.banner h1{
+    font-size: 50px;
+    font-weight: 700;
+    padding: 20px 0px;
+}
+.banner span{
+    color: #21b573;
+}
+.banner p{
+    font-weight: 500;
+    font-size: 20px;
+}
+button{
+    border: none;
+    padding: 10px 25px;
+    background-color: #2196f3;
+    color: white;
+    font-weight: 500;
+    border-radius: 25px;
+    margin: 10px 0px 30px 0px;
+    cursor: pointer;
+    box-shadow:5px 5px 20px 5px #2196f3;
+}
+.feature img{
+    width: 70px;
+  }
+.feature .box-shadow{
+    box-shadow: 10px 10px 30px lightgray;
+    transform: rotate(20deg);
+}
+.card-body img{
+    width: 30px;
+    height: 30px;
+}
+.card-body h6{
+    font-size: 15px;
+}
+.card{
+   border: none;
+}
+.left, .right{
+    display: flex;
+}
+.courses .col{
+    box-shadow: 5px 5px 20px wheat;
+}
+.testimonial img{
+    width: 150px;
+}
+footer ul,footer h5,.testimonial h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

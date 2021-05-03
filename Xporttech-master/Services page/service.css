@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+.software{
+	background-image: url(./images/Hero-Image1@3x.jpg);
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	height: 440px;
+	margin-bottom: 30px solid black;
+	/* margin-bottom: 17px; */
+	border-bottom: 9px solid #4e4141;
+}
+.software h1{
+
+font-size: 50px;
+
+color: ;
+
+font-weight: 700;
+
+text-transform: uppercase;
+
+margin-top: 50px;
+
+color: liner gradiant;
+
+color: lightyellow;
+}
+.software p{
+	
+color: #d2cbcb;
+	
+font-size: 24px;
+}
+.software{
+	
+}
+.service{
+	
+background: #000000ab;
+	
+padding: 122px 0;
+}
+.service-wrapping{
+	
+}
+.box{
+
+padding: 14px 0px;
+
+transition: .7s all ease;
+}
+.box:hover{
+	/* border: 1px solid; */
+	/* padding-top: 14px; */
+	box-shadow: 4px 5px 8px #606e7b;
+	background: #464343;
+	padding: 14px 3px;
+	/* box-shadow: 0 0 black; */
+	transform: translatey(-3px);
+}
+.col_service{
+
+/* box-shadow: 0 0 BLACK; */
+
+padding: 37px 9px;
+
+transition: .5s all;
+
+/* border-bottom: 1px solid; */
+
+width: -101%;
+
+border-right: 1px solid;
+
+background: #4e4d4d;
+}
+.col_service:hover{
+	
+/* box-shadow: 6px 7px 15px #7e8ea0; */
+}
+.service h1{
+
+text-align: center;
+
+text-transform: uppercase;
+
+font-size: 50px;
+
+font-weight: 700;
+
+color: white;
+
+margin-bottom: 60px;
+}
+
+.service h1{
+	position: relative;
+	/* padding-top: 79px; */
+	font-size: 42px;
+	}
+  .service h1::after{
+	content: '';
+	height: 6px;
+	width: 271px;
+	background: #ababaa;
+	position: absolute;
+	top: 56%;
+	transform: translateX(-0%,);
+	left: 37%;
+	margin-top: 65px;
+	z-index: 999;
+	}
+  .service h1::before{
+		content: '';
+		height: 18px;
+		width: 30px;
+		background: #85cac9;
+		position: absolute;
+		top: 47%;
+		transform: translateX(-0%,);
+		animation:icon-ani 2.2s linear infinite;
+		animation-direction: alternate;
+		left: 37%;
+		margin-top: 65px;
+		z-index: 9999999;
+}
+
+  @keyframes icon-ani{
+			0%{
+				transform: translateX(-160px%);
+				
+		}
+			100%{
+				transform: translateX(225px);
+		
+				} 
+  }
+  
+.icon-box{
+		border: none;
+		border: 1ps solid;
+		border: 1px solid #7b9ec3;
+		display: inline-block;
+		transform: rotate(45deg);
+		height: 41px;
+		width: 40px;
+}
+
+.icon-box i{
+	
+		transform: rotate(-45deg);	
+		margin-top: 12px;	
+		margin-left: -5px;	
+		padding-bottom: -9px;
+		line-height: 10px;
+		color: #050519;
+}
+.service-box{
+
+}
+.service-box h5{
+	margin-top: 25px;
+	text-transform: uppercase;
+	color: white;
+}
+.service-box p{
+	color: #b9af9c;
+}
+.btn-service{
+
+		color: #fff;
+		background-color: #262a2f;
+		border-color: #3e4750;
+}
+.btn-service:hover{
+		
+	background-color: #7c828a;			
+	border-color: #3e4750;
+}
+
+
+/* customer part */
+.customer{
+	
+	background: F5F5F5;	
+	padding: 100px 0;	
+	background: #ece5e5;
+}
+.item{
+		height: 123px;
+		transition: .4s all;
+		margin-bottom: 10px;
+}
+.item:hover{
+	border: 1px solid #007bff;
+	box-shadow: 6px 6px 9px #7898bb;
+	border-radius: 5px;
+	background: #c5b9b9;
+}
+.cust_logo{
+	
+}
+.cust_logo img{
+		
+	
+}
+.customer{
+	
+	}
+.customer h1{
+		
+	text-align: center;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #94815e;
+	font-family: 'Bebas Neue', cursive;
+}
+.customer p{
+		
+	text-align: center;	
+	font-size: 20px;	
+	margin-bottom: 91px;	
+	color: #42403b;
+}
+
+/* counter part start  */
+.counter-main{
+	
+padding-bottom: 130px;
+}
+.counter {
+    /* background-color:#f5f5f5; */
+    padding: 15px 6px 16px 7px;
+    border-radius: 5px;
+    transition: .4s all ease-in-out;
+    display: block;
+}
+.counter:hover{
+    box-shadow: 4px 4px 11px #42392a;
+    background: lavenderblush;
+}
+.counter:hover .count-text{
+	color: #9090cc;
+}
+
+.counter h1{
+
+}
+.counter-main h1{
+	position: relative;
+	text-align: center;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #988f7f;
+	font-family: 'Bebas Neue', cursive;
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+  .counter-main h1::after{
+	content: '';
+	height: 6px;
+	width: 271px;
+	background: #ababaa;
+	position: absolute;
+	top: 56%;
+	transform: translateX(-0%,);
+	left: 37%;
+	margin-top: 65px;
+	z-index: 999;
+	}
+  .counter-main h1::before{
+		content: '';
+		height: 18px;
+		width: 30px;
+		background: #85cac9;
+		position: absolute;
+		top: 45%;
+		transform: translateX(-0%,);
+		animation:icon-ani 2.2s linear infinite;
+		animation-direction: alternate;
+		left: 37%;
+		margin-top: 65px;
+		z-index: 9999999;
+}
+
+  @keyframes icon-ani{
+			0%{
+				transform: translateX(-160px%);
+				
+		}
+			100%{
+				transform: translateX(225px);
+		
+				} 
+  }
+
+.count-title {
+    font-size: 41px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text {
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #4ad1e5;
+}
+
+/* counter part end  */
+
+
+@media (min-width: 319.99px) and (max-width: 374.98px){
+.service h1::after {
+    left: 16%;
+}
+.service h1::before {
+		left: 19%;
+		top: 42%;
+}
+
+
+.col_service {
+		/* border: 1px solid; */
+		margin: 20px;
+		/* border-radius: 3%; */
+		border: none;
+}
+.software h1 {
+		font-size: 34px;
+}
+.software p {
+     	font-size: 15px;
+     	margin-top: 50px;
+}
+.customer{
+	
+}
+.customer h1 {
+		font-size: 40px;	
+}
+.customer h1 {
+		text-align: center;
+		font-size: 35px;
+		text-transform: uppercase;
+		font-weight: 600;
+		color: #94815e;
+}
+
+.counter-main h1::after {
+    left: 5%;
+}
+.counter-main h1::before {
+		left: 8%;
+		top: 42%;
+}
+
+
+}
+
+@media (min-width: 374.99px) and (max-width: 424.98px){
+	.service h1::after {
+		left: 16%;
+	}
+	.service h1::before {
+			left: 19%;
+			top: 42%;
+	}
+	
+	
+	.col_service {
+			/* border: 1px solid; */
+			margin: 20px;
+			/* border-radius: 3%; */
+			border: none;
+	}
+	.software h1 {
+			font-size: 34px;
+	}
+	.software p {
+			 font-size: 15px;
+			 margin-top: 50px;
+	}
+	.customer{
+		
+	}
+	.customer h1 {
+			font-size: 40px;	
+	}
+	.customer h1 {
+			text-align: center;
+			font-size: 35px;
+			text-transform: uppercase;
+			font-weight: 600;
+			color: #94815e;
+	}
+	
+	.counter-main h1::after {
+		left: 11%;
+	}
+	.counter-main h1::before {
+			left: 13%;
+			top: 42%;
+	}
+	
+	
+	}
+
+@media (min-width: 424.99px) and (max-width: 575.98px){
+	.service h1::after {
+		left: 19%;
+	}
+	.service h1::before {
+			left: 20%;
+			top: 42%;
+	}
+	
+	
+	.col_service {
+			/* border: 1px solid; */
+			margin: 20px;
+			/* border-radius: 3%; */
+			border: none;
+	}
+	.software h1 {
+			font-size: 25px;
+	}
+	.software p {
+			 font-size: 15px;
+	}
+	.customer{
+		
+	}
+	.customer h1 {
+			font-size: 40px;	
+	}
+	.customer h1 {
+			text-align: center;
+			font-size: 45px;
+			text-transform: uppercase;
+			font-weight: 600;
+			color: #94815e;
+	}
+
+	.counter-main h1::after {
+		left: 15%;
+	}
+	.counter-main h1::before {
+			left: 17%;
+			top: 42%;
+	}
+
+.counter {
+   
+    display: inline-grid;
+}
+	
+
+
+}
+
+@media (min-width: 575.99px) and (max-width: 767.98px){
+	.service h1::after {	
+		left: 4%;
+	}
+	.service h1::before {
+			left: 4%;
+			top: 42%;
+	}
+	.counter {
+   
+		display: inline-grid;
+	}
+		
+	
+	.col_service {
+			/* border: 1px solid; */
+			/* margin: 20px; */
+			border-radius: 3%;
+	}
+	.software h1 {
+			font-size: 25px;
+	}
+	.software p {
+			 font-size: 15px;
+	}
+	.customer{
+		
+	}
+	.customer h1 {
+			font-size: 40px;
+			font-family: 'Bebas Neue', cursive;	
+	}
+	.customer h1 {
+			text-align: center;
+			font-size: 35px;
+			text-transform: uppercase;
+			font-weight: 600;
+			color: #94815e;
+	}
+	.counter-main h1::after {	
+		left: 4%;
+	}
+	.counter-main h1::before {
+			left: 4%;
+			top: 42%;
+	}
+
+}
+
+@media (min-width: 767.99px) and (max-width: 1023.98px){
+
+	.service h1::after {
+		left: 30%;
+	}
+	.service h1::before {
+			left: 31%;
+			top: 42%;
+	}
+	.counter-main h1::after {
+		left: 30%;
+	}
+	.counter-main h1::before {
+			left: 31%;
+			top: 42%;
+	}
+	
+	
+}
+
+@media (min-width: 1023.99px) and (max-width: 1110.98px){
+
+	.service h1::after {
+		left: 35%;
+	}
+	.service h1::before {
+			left: 36%;
+			top: 42%;
+	}
+	.counter-main h1::after {
+		left: 35%;
+	}
+	.counter-main h1::before {
+			left: 36%;
+			top: 42%;
+	}
+}

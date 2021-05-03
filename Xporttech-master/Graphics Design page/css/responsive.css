@@ -1,0 +1,484 @@
+
+
+
+
+
+
+
+@media(max-width:1024px){
+
+
+    .fixed-top {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+        padding: 8px 54px;
+        background-color: #fff;
+        z-index: 0;
+    }
+
+    .box-4-5-6 .box {
+        display: inline-block;
+        width: 137px;
+        font-size: 12px;
+    }
+    .box-1-2-3 .box {
+        display: inline-block;
+        width: 137px;
+        font-size: 12px;
+    }
+
+
+    .client-icons  img{width: 100px;}
+
+    .client-icons .up-icons {
+        margin: 10px 53px;
+    }
+    .client-icons .bottom-icons {
+        margin: 7px 52px;
+    }
+
+    .client-button {
+        height: 51px;
+        width: 152px;
+        background-color: #EF831D;
+        justify-content: center;
+        margin: auto;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #fff;
+        font-weight: 900;
+        border-radius: 5px;
+    }
+        .fa-chevron-left {
+            position: fixed;
+            font-size: 34px;
+            color: #19A;
+            font-weight: lighter;
+            top: 140px;
+            left: 2px;
+        }
+        .fa-chevron-right {
+            position: fixed;
+            font-size: 34px;
+            color: #19A;
+            font-weight: lighter;
+            top: 140px;
+            right: 2px;
+        }
+    
+        .homepagebottom ul {
+            margin-top: 49px;
+            margin-left: 0px;
+        }
+    
+       
+    
+    
+
+}
+@media(max-width:768px){
+
+    .fixed-top {
+        position: fixed;
+        top: 0;
+        z-index: 1030;
+        padding: 8px 0px;
+        background-color: #fff;
+        z-index: 0;
+    }
+    .scrollBox {
+        position: absolute;
+        top: 674px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .digital-media-left {
+        margin: 0px 183px;
+    }
+    .digital-media-right {
+        margin: 300px 12px 0px -196px;
+    }
+    .second-contact-section-bottom-part .row .box1 {
+        margin-left: -75px;
+        margin-right: 20px;
+        background-color: #fff;
+    }
+    .client-icons{
+        display: block;
+    padding: 29px 98px;
+    }
+
+  
+
+        .homepage-all {
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: -1;
+        }
+    
+        .BannerLeft button {
+            background-color: #000;
+            color: #fff;
+            font-weight: bold;
+            width: 170;
+            height: 33px;
+            width: 180px;
+            border-radius: 7px;
+            margin: 14px 0;
+            font-size: 10px;
+        }
+    
+        .bannerRightImage1 {
+            margin-top: 50px
+        }
+        .bannerRightImage1 img{
+          width: 250px;
+        }
+        .homepagebottom ul {
+            margin-top: 39px;
+            margin-left: 0px;
+        }
+        .homepagebottom ul li a img {
+            width: 76px;
+        }
+    
+    
+    
+    
+    
+
+
+}
+
+
+@media (max-width: 425px){
+
+    .homepage-all {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 400px;
+        right: 0;
+        z-index: -1;
+    }
+    .digital-media-left {
+        margin: 0 22px -277px 0px;
+    }
+    .digital-media-right {
+        margin: 280px -137px 7px -113px;
+    }
+    .contact-left {
+        margin: 74px 180px;
+    }
+
+
+    .about-section-right {
+    margin: -170px 29px 17px 200px;
+}
+
+.about-section-right {
+    margin: -170px 29px 17px 200px;
+}
+
+.second-contact-section-bottom-part .row .box2 {
+    background-color: #ff5;
+    margin: 14px 0px 0px 224px;
+}
+
+.client-icons {
+    display: block;
+    padding: 19px 26px;
+}
+
+.BannerLeft p {
+    color: #F58;
+    margin: 0;
+    font-size: 24px;
+}
+
+.BannerLeft h2 {
+    font-size: 55px;
+    font-weight: 1000;
+    line-height: 1.1;
+    position: relative;
+    max-width: 725px;
+    text-transform: capitalize;
+}
+.BannerLeft {
+    margin-top: 99px;
+    position: relative;
+    margin: 89px -126px;
+}
+.client-left-button {
+
+    display: none;
+}
+.BannerLeft {
+  
+    position: relative;
+    margin: 21px 74px -366px 505px;
+}
+.BannerLeft {
+    margin-top: 4px 4px 0px 0px;
+    position: relative;
+    margin: 104px 3px 23px 263px;
+}
+.scrollBox {
+    position: absolute;
+    top: 1108px;
+    margin: 0px;
+    padding: 0px;
+}
+.BannerRight {
+    margin: 10px 195px;
+}
+.homepagebottom ul {
+    margin-top: 49px;
+    margin-left: 43px;
+}
+.BannerLeft {
+    margin-top: 4px 4px 0px 0px;
+    position: relative;
+    margin: 68px 0 0 -9px;
+    top: 51px;
+    left: 220px;
+}
+.BannerLeft button {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    width: 170;
+    height: 22px;
+    width: 113px;
+    border-radius: 7px;
+    font-size: 7px;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    z-index: 1030;
+    padding: 8px 71px;
+    background-color: #fff;
+    z-index: 0;
+}
+.homepagebottom {
+    margin-top: 0px;
+    z-index: 99;
+    height: 104px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 13px;
+    bottom: 6px;
+    margin: 0 0;
+    position: relative;
+    left: 208px;
+}
+
+.second-contact-section-bottom-part .row .box1 {
+    margin-left: 0;
+    background-color: #fff;
+    position: relative;
+    left: 150px;
+}
+.second-contact-section-bottom-part .row .box2 {
+    background-color: #ff5;
+    margin: 0;
+    position: relative;
+    left: 20px;
+}
+.bottom-part .row .box2 {
+    background-color: #ff5;
+    margin: 0;
+    position: relative;
+    left: 158px;
+    top: 35px;
+}
+
+.homepage-all {
+    position: absolute;
+    width: 165%;
+    top: 0;
+    left: 83px;
+    right: 0;
+    z-index: -1;
+}
+
+.homepagebottom {
+    margin-top: 0px;
+    z-index: 99;
+    height: 104px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 13px;
+    bottom: 6px;
+    margin: 0 0;
+    position: relative;
+    left: 22px;
+    top: 67px;
+}
+.fa, .fas {
+    display: none;
+    font-weight: 900;
+    position: relative;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    z-index: 1030;
+    padding: 8px 71px;
+    background-color: #fff;
+    z-index: 123;
+}
+.fa, .fas {
+    font-weight: 900;
+    display: none;
+}
+
+.homepage-all {
+    position: absolute;
+    width: 165%;
+    top: 0;
+    left: -77px;
+    right: 0px;
+    z-index: -1;
+}
+.BannerRight {
+    margin: 0;
+    position: relative;
+    top: 51px;
+    left: 332px;
+}
+
+.bannerRightImage1 img {
+    width: 354px;
+}
+.homepagebottom {
+    margin-top: 0px;
+    z-index: 99;
+    height: 104px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 13px;
+    bottom: 3px;
+    margin: 0 0;
+    position: relative;
+    left: 141px;
+    top: 67px;
+}
+.second-contact-section-bottom-part .row .box2 {
+    background-color: #ff5;
+    margin: 0;
+    position: relative;
+    left: 150px;
+    margin: 47px 0;
+}
+
+}
+
+@media(max-width:375px){
+
+
+    .homepagebottom ul {
+        margin-top: 22px;
+        margin-left: -21px;
+    }
+}
+@media(max-width:320px){
+    .fixed-top {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+        padding: 1px 0px;
+        background-color: #fff;
+        z-index: 0;
+    }
+    .navbar-brand img {
+        width: 114px;
+    }
+
+   
+
+        .BannerLeft {
+            margin-top: 119px;
+            position: relative;
+        }
+        .homepagebottom ul {
+            margin-top: 37px;
+            margin-left: 0px;
+            padding: 0px;
+        }
+    
+        .homepagebottom ul li a img {
+            width: 27px;
+        }
+    
+        .fixed-top {
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 1030;
+            padding: 10px -3px;
+            background-color: #fff;
+            z-index: 141;
+        }
+        .homepagebottom ul li a {
+            padding: 14px 17px;
+        }
+
+       
+        .homepagebottom ul li a img {
+            width: 63px;
+        }
+        .homepagebottom ul {
+            margin-top: 32px;
+            margin-left: 79px;
+            padding: 0px;
+        }
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end of home page section  */
+
+
+
+
+
+
+
+
+
+

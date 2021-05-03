@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Shopping Cart</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
+   <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+   <section>
+      <div class="container" id="container">
+         <div class="cart">
+            <div class="col-md-12 col-lg-10 mx-auto">
+               <div class="cart-item " id="cart-first">
+                  <div class="row">
+                     <div class="col-md-6 center-item">
+                        <img src="images/product-1.png" alt="">
+                        <h5>iPhone 11 128GB Black</h5>
+                     </div>
+
+                     <div class="col-md-6 center-item">
+                        <div class="input-group number-spinner">
+                           <button class="btn btn-default" id="minus-btn-first"><i class="fas fa-minus"></i></button>
+                           <input type="text" id="quantity-item1" class="form-control text-center" value="1">
+                           <button class="btn btn-default" id="plus-btn-first"><i class="fas fa-plus"></i></button>
+                        </div>
+                        <h5>$ <span id="current-price-first">1219</span></h5>
+                        <button id="remove-item1"><img src="images/remove.png" alt="" class="remove-item"></button>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="cart-item" id="cart-second">
+                  <div class="row">
+                     <div class="col-md-7 center-item mx-auto">
+                        <img src="images/product-2.png" alt="">
+                        <h5>iPhone 11 Silicone Case - Black</h5>
+                     </div>
+                     <div class="col-md-5 center-item">
+                        <div class="input-group number-spinner">
+                           <button id="minus-btn-second" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                           <input id="quantity-item2" type="text" class="form-control text-center" id="a" value="1">
+                           <button id="plus-btn-second" class="btn btn-default"><i class="fas fa-plus"></i></button>
+
+                        </div>
+                        <h5>$ <span id="current-price-second">59</span></h5>
+                        <button id="remove-item2"> <img  src="images/remove.png" alt="" class="remove-item"></button>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="cart-item">
+                  <div class="row">
+
+                     <div class="col-md-8">
+                        <h5>Subtotal: </h5>
+                        <h5>Tax:</h5>
+                        <h5>Total:</h5>
+                     </div>
+
+                     <div class="col-md-4 status">
+                        <h5 >$ <span id="sub-total">1,278</span></h5>
+                        <h5>$ <span id="tax">63.9</span></h5>
+                        <h5>$ <span id="total">1,278</span></h5>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-12 pt-4 pb-4">
+                  <button id="check-out" type="button" class="btn btn-success check-out">Check Out</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+  <section id="order-complete" class="text-center mt-5 pt-5">
+     <h1 class="text-primary">Your First Order is Received</h1>
+     <img  src="images/congratulations.jpeg" alt="">
+  </section>
+
+   <script>
+      //first item plus button setup
+      const plusBtnFirst=document.getElementById('plus-btn-first');
+      plusBtnFirst.addEventListener('click',()=>{
+         clickToUpdatePrice('+',1,'quantity-item1','current-price-first');
+         
+      });
+
+      //first item Subtraction button setup
+      const minusBtnFirst=document.getElementById('minus-btn-first');
+      minusBtnFirst.addEventListener('click',()=>{
+         clickToUpdatePrice('-',1,'quantity-item1','current-price-first');
+         
+      });
+      //second item plus button setup
+      const plusBtnSecond=document.getElementById('plus-btn-second');
+      plusBtnSecond.addEventListener('click',()=>{
+         clickToUpdatePrice('+',2,'quantity-item2','current-price-second');
+         
+      });
+      //second item Subtraction button setup
+      const minusBtnSecond=document.getElementById('minus-btn-second');
+      minusBtnSecond.addEventListener('click',()=>{
+         clickToUpdatePrice('-',2,'quantity-item2','current-price-second');
+         
+      });
+      // remove first item to click cross symbol
+      const firstItem=document.getElementById('remove-item1');
+      firstItem.addEventListener('click',()=>{
+         document.getElementById('cart-first').style.display='none';
+         document.getElementById('current-price-first').innerText=0;
+         updatePrice();
+         console.log(firstPriceNumber);
+      });
+      // remove second item to click cross symbol
+      const secondItem=document.getElementById('remove-item2');
+      secondItem.addEventListener('click',()=>{
+         document.getElementById('cart-second').style.display='none';
+         document.getElementById('current-price-second').innerText=0;
+         updatePrice();
+         console.log(firstPriceNumber);
+      });
+      //Check-Out Button setup
+      const checkOutBtn=document.getElementById('check-out');
+      checkOutBtn.addEventListener('click',()=>{
+         document.getElementById('order-complete').style.display="block"
+         document.getElementById('container').style.display="none"
+      });
+
+      //click button to update price system   
+      function clickToUpdatePrice(symbol,num,currentQuantity,currentPrice){
+         let quantity=document.getElementById(currentQuantity).value;
+         quantity=parseInt(quantity);
+         const presentPrice=document.getElementById(currentPrice).innerText;
+         const presentPriceNumber=parseFloat(presentPrice);
+
+         // if clicked plus button
+         if(symbol=='+'){
+            quantity++;
+
+            //if clicked first item plus button
+            if(num==1){
+               document.getElementById(currentPrice).innerText=presentPriceNumber+1219;
+
+               // if quantity is getter than 0 minus button is enable
+               if(quantity>0){
+                  const button1=document.getElementById('minus-btn-first')
+                  button1.disabled=false;
+               }
+            }
+
+            //if clicked second item plus button
+            else{
+               document.getElementById(currentPrice).innerText=presentPriceNumber+59;
+
+               // if quantity is getter than 0 minus button is enable
+               if(quantity>0){
+                  const button1=document.getElementById('minus-btn-second')
+                  button1.disabled=false;
+               }
+           }
+         }
+         else{
+            quantity--;
+            //if clicked first item minus button
+            if(num==1){
+               document.getElementById(currentPrice).innerText=presentPriceNumber-1219;
+                // if quantity is 0 or less minus button is disable
+               if(quantity<1){
+                  const button1=document.getElementById('minus-btn-first')
+                  button1.disabled=true;
+               }
+            }
+            else{
+               //if clicked second item minus button
+               document.getElementById(currentPrice).innerText=presentPriceNumber-59;
+                // if quantity is 0 or less minus button is disable
+               if(quantity<1){
+                  const button1=document.getElementById('minus-btn-second')
+                  button1.disabled=true;
+               }
+            }
+         }
+         const newQuantity=document.getElementById(currentQuantity).value=quantity;
+         //when quantity increase 10 every time show alert "Great Choice"
+         if(quantity>0&&quantity %10==0){
+            alert('Great Choice')
+         }
+
+         //Calculate price
+         updatePrice();
+      }
+      function updatePrice(){
+            const firstPrice=document.getElementById('current-price-first').innerText;
+            const secondPrice=document.getElementById('current-price-second').innerText;
+            const firstPriceNumber=parseFloat(firstPrice);
+            const secondPriceNumber=parseFloat(secondPrice);
+            const subTotal=firstPriceNumber+secondPriceNumber;
+            const tax=subTotal*5/100;
+            const total=subTotal+tax;
+            document.getElementById('sub-total').innerText=subTotal;
+            document.getElementById('tax').innerText=tax;
+            document.getElementById('total').innerText=subTotal+tax;
+         }
+   </script>
+</body>
+</html>

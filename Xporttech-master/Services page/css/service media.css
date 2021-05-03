@@ -1,0 +1,312 @@
+
+@media (max-width: 320.99px){
+    .service h1::after {
+        left: 9%;
+        width: 240px;
+}
+.service h1::before {
+        left: 6%;
+        top: 42%;
+}
+
+
+.col_service {
+        
+        margin: 20px;
+        border: none;
+}
+
+.software h1 {
+        font-size: 34px;
+}
+
+.software p {
+         font-size: 15px;
+         margin-top: 50px;
+}
+
+.customer{
+    
+}
+
+.customer h1 {
+        font-size: 40px;	
+}
+
+.customer h1 {
+        text-align: center;
+        font-size: 35px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #94815e;
+}
+
+.counter-main h1::after {
+    left: 5%;
+}
+
+.counter-main h1::before {
+        left: 8%;
+        top: 42%;
+}
+}
+@media (min-width: 320.99px) and (max-width: 374.98px){
+
+    .service h1::after {
+            left: 16%;
+    }
+    .service h1::before {
+            left: 19%;
+            top: 42%;
+    }
+    
+    
+    .col_service {
+            
+            margin: 20px;
+            border: none;
+    }
+    
+    .software h1 {
+            font-size: 34px;
+    }
+    
+    .software p {
+             font-size: 15px;
+             margin-top: 50px;
+    }
+    
+    .customer{
+        
+    }
+    
+    .customer h1 {
+            font-size: 40px;	
+    }
+    
+    .customer h1 {
+            text-align: center;
+            font-size: 35px;
+            text-transform: uppercase;
+            font-weight: 600;
+            color: #94815e;
+    }
+    
+    .counter-main h1::after {
+        left: 5%;
+    }
+    
+    .counter-main h1::before {
+            left: 8%;
+            top: 42%;
+    }
+    
+    
+    }
+    
+    
+    
+    
+    @media (min-width: 374.99px) and (max-width: 424.98px){
+    
+        .service h1::after {
+            left: 16%;
+        }
+        .service h1::before {
+                left: 19%;
+                top: 42%;
+        }
+        
+        
+        .col_service {
+                margin: 20px;
+                border: none;
+        }
+    
+        .software h1 {
+                font-size: 34px;
+        }
+    
+        .software p {
+                 font-size: 15px;
+                 margin-top: 50px;
+        }
+    
+        .customer{
+            
+        }
+    
+        .customer h1 {
+                font-size: 40px;	
+        }
+    
+        .customer h1 {
+                text-align: center;
+                font-size: 35px;
+                text-transform: uppercase;
+                font-weight: 600;
+                color: #94815e;
+        }
+        
+        .counter-main h1::after {
+            left: 11%;
+        }
+    
+        .counter-main h1::before {
+                left: 13%;
+                top: 42%;
+        }
+        
+        
+    }
+    
+    
+    @media (min-width: 424.99px) and (max-width: 575.98px){
+    
+        .service h1::after {
+            left: 19%;
+        }
+        .service h1::before {
+                left: 20%;
+                top: 42%;
+        }
+        
+        
+        .col_service {	
+                margin: 20px;
+                border: none;
+        }
+    
+        .software h1 {
+                font-size: 25px;
+        }
+    
+        .software p {
+                 font-size: 15px;
+        }
+    
+        .customer{
+            
+        }
+    
+        .customer h1 {
+                font-size: 40px;	
+        }
+        
+        .customer h1 {
+                text-align: center;
+                font-size: 45px;
+                text-transform: uppercase;
+                font-weight: 600;
+                color: #94815e;
+        }
+    
+        .counter-main h1::after {
+            left: 15%;
+        }
+    
+        .counter-main h1::before {
+                left: 17%;
+                top: 42%;
+        }
+    
+        .counter {
+                display: inline-grid;
+    }
+        
+    
+    
+    }
+    
+    @media (min-width: 575.99px) and (max-width: 767.98px){
+    
+        .service h1::after {	
+            left: 4%;
+        }
+        .service h1::before {
+                left: 4%;
+                top: 42%;
+        }
+        .counter {
+            display: inline-grid;
+        }
+            
+        
+        .col_service {
+                border-radius: 3%;
+        }
+    
+        .software h1 {
+                font-size: 25px;
+        }
+    
+        .software p {
+                 font-size: 15px;
+        }
+    
+        .customer{
+            
+        }
+    
+        .customer h1 {
+                font-size: 40px;
+                font-family: 'Bebas Neue', cursive;	
+        }
+    
+        .customer h1 {
+                text-align: center;
+                font-size: 35px;
+                text-transform: uppercase;
+                font-weight: 600;
+                color: #94815e;
+        }
+    
+        .counter-main h1::after {	
+            left: 4%;
+        }
+    
+        .counter-main h1::before {
+                left: 4%;
+                top: 42%;
+        }
+    
+    }
+    
+    @media (min-width: 767.99px) and (max-width: 1023.98px){
+    
+        .service h1::after {
+            left: 30%;
+        }
+        .service h1::before {
+                left: 31%;
+                top: 42%;
+        }
+        .counter-main h1::after {
+            left: 30%;
+        }
+        .counter-main h1::before {
+                left: 31%;
+                top: 42%;
+        }
+        
+        
+    }
+    
+    @media (min-width: 1023.99px) and (max-width: 1110.98px){
+    
+        .service h1::after {
+            left: 35%;
+        }
+        .service h1::before {
+                left: 36%;
+                top: 42%;
+        }
+        .counter-main h1::after {
+            left: 35%;
+        }
+        .counter-main h1::before {
+                left: 36%;
+                top: 42%;
+        }
+    }
+    

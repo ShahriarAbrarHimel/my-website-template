@@ -1,0 +1,271 @@
+/*
+ * This css file includes styles added in the jekyll port of this theme.
+ * To find the original style.css that ships with Airspace, read airspace.css
+ *
+ */
+
+ .italic {
+   font-style: italic;
+ }
+
+ .bold {
+   font-weight: bold;
+ }
+
+ .center-text {
+   text-align: center;
+ }
+
+.post-area {
+  padding: 40px;
+  width: 100%;
+  min-height: 150px;
+  background-color: white;
+  border-bottom: 1px dotted #ddd;
+}
+
+.post-area a:link, .post-area a:visited {
+  font-size: 30px;
+  color: #333;
+}
+
+.post-area a:hover {
+  color: #0D0017;
+}
+
+.underline-bottom {
+    width: 60px;
+    background-color: #fadf1d;
+    height: 3px;
+    display: block;
+    margin: 20px auto;
+}
+
+#slider .next-event-caption {
+    color: #FFF;
+    font-size: 20px !important;
+    letter-spacing: 0.05em !important;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+#slider ul.next-event-list {
+    font-size: 12px !important;
+}
+
+#slider ul.next-event-list li {
+    display: inline-block;
+    color: #FFF;
+    letter-spacing: 0.05em;
+    border-right: 1px solid #FFF;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-left: -6px;
+}
+
+#slider ul.next-event-list li a {
+    color: white !important;
+}
+
+#slider ul.next-event-list li a:hover {
+    color: yellow !important;
+}
+
+.discover-more {
+    margin-top: 20px;
+    background-color: #1f1f1f;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 8px 0px;
+    width: 250px;
+    display: inline-block;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 30px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.discover-more a {
+    color: white !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 700;
+    font-style: initial;
+}
+
+.discover-more:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.20), 0 10px 10px rgba(0,0,0,0.17);
+    background-color: #000;
+}
+
+#service .fa-stack {
+    height: 1em !important;
+}
+
+#about aside {
+    width: 20%;
+    float: left;
+    background-color: #F1F1F1;
+    text-transform: initial;
+    padding: 30px 0px 5px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+#about ul {
+    font-size: 16px;
+    list-style: none;
+    font-family: "Work Sans", sans-serif;
+}
+
+#about aside ol {
+    padding: 0px 30px;
+    list-style: none;
+}
+
+#about aside ol li, #about aside ol li ul li {
+    position: relative;
+    padding: 10px 0px;
+    margin-bottom: 5px;
+}
+
+#about aside ol li a {
+    color: #1F1F1F;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 0.5;
+    text-decoration: none;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+#about aside ol li ul {
+    width: 142px;
+    font-size: 18px;
+    list-style: none;
+}
+
+#about aside ol li ul li a {
+    color: #1F1F1F;
+    opacity: 0.5;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.sticky {
+    position: sticky;
+    top: 55px;
+    display: block;
+}
+
+#about #about-right {
+    width: 80%;
+    float: left;
+    padding: 15px 0px 55px 30px;
+    border-bottom: 1px solid #F1F1F1;
+    font-family: "Work Sans", sans-serif;
+}
+
+#about #about-right section {
+    padding-bottom: 40px;
+}
+
+#about #about-right h2 {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 34px;
+    letter-spacing: 0.05em;
+}
+
+#about #about-right .underline-bottom {
+    width: 50px;
+    background-color: #ffffff;
+    height: 3px;
+    display: block;
+    margin: 10px 0px 12px;
+    background-color: #fadf1d!important;
+}
+
+#about #about-right #mission {
+    padding: 30px 0px 0px !important;
+}
+
+#about h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+#about #about-right p {
+    line-height: 25px;
+    font-size: 16px;
+}
+
+#about #about-right strong {
+    font-weight: 600;
+}
+
+#about #about-right a {
+    color: #1F1F1F;
+    text-decoration: underline;
+}
+
+#about #about-right article {
+    padding: 40px 0px 0px;
+}
+
+#about .profile-block {
+    padding: 20px 0px 10px;
+    text-align: center;
+    width: 100%;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+#about img {
+    width: 180px;
+    height: auto;
+    border-radius: 500px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: bottom;
+}
+
+#about .pname {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#about .profile-block ul li a {
+    text-decoration: none!important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+#about #projects a {
+    text-decoration: underline !important;
+}
+
+.address-block {
+    list-style: none;
+}
